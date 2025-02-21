@@ -13,6 +13,12 @@
   "devDependencies": {
     "typescript": "4.9.5"
   },
+  "resolutions": {
+    "typescript": "4.9.5"
+  },
+  "overrides": {
+    "typescript": "4.9.5"
+  },
   "scripts": {
     "start": "set NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
     "build": "set NODE_OPTIONS=--openssl-legacy-provider && react-scripts build",
@@ -36,10 +42,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "overrides": {
-    "typescript": "4.9.5"
   }
 }
+
 
 
